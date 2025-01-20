@@ -22,7 +22,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/Aucbidding")
-                .setAllowedOrigins("http://localhost:5173","http://localhost:63342", "https://cartechindia.com")
+                .setAllowedOrigins("http://localhost:5173","http://localhost:63342", "https://cartechindia.com","http://192.168.21.122","http://192.168.21.167")
                 .withSockJS();
     }
 
